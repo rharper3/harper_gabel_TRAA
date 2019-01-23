@@ -6,10 +6,48 @@ display:none;
 }
 
 #container {
-	margin: 0 auto;
+	width: 960px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0px auto;
 	background-color: #F1F1F1F1;
 }
 
+#mainHeader {
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+	border-bottom: solid 1px #DDD;
+}
+
 #logo {
-	
+	height: 159px;
+	width: 237px;
+	margin-right: auto;
+	background-color: #666666;
+}
+
+#socialMedia {
+	display: flex;
+	flex-direction: row;
+	width: 220px;
+	height: 50px;
+	margin-top: 60px; 
+	justify-content: space-between;
+
+}
+
+#socialMedia div {
+	height: 40px;
+	width: 40px;
+	background-color: #999999;
+	margin-bottom: 20px;
+}
+
+#mainNav
+{	height: 30px; 
+	width: 650px;
+	margin-top: 127px;
+	background-color: #999999;
 }
