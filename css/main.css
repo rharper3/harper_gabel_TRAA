@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.hidden {
+
+display:none;
+}
+
+#container {
+	margin: 0 auto;
+	background-color: #F1F1F1F1;
+}
+
+#logo {
+	
+}
